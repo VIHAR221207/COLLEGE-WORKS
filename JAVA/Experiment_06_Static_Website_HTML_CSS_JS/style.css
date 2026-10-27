@@ -1,0 +1,31 @@
+body {
+    font-family: Arial;
+    margin: 20px;
+}
+
+.menu {
+    margin-bottom: 20px;
+}
+
+.movie {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0;
+    width: 250px;
+}
+
+#status {
+    color: green;
+}
+
+#loginBox {
+    display: none;
+    border: 1px solid black;
+    padding: 10px;
+    width: 300px;
+}
+
+/*
+ * HOW TO RUN:
+ * Linked by index.html. Just open index.html in a browser.
+ */

@@ -1,0 +1,14 @@
+.menu {
+  margin-bottom: 20px;
+}
+
+.menu a {
+  margin-right: 15px;
+}
+
+/*
+ * HOW TO RUN:
+ * Needs Node.js 16+. In the Experiment_09 folder run:
+ * 1. npm install
+ * 2. npm start   (opens http://localhost:3000)
+ */

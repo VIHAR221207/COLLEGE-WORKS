@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CineReserve</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CineReserve - Movie Ticket Booking</h1>
+
+    <div class="menu">
+        <a href="#movies">Movies</a> |
+        <a href="#contact">Contact</a> |
+        <button onclick="openLogin()">Login</button>
+    </div>
+
+    <h2 id="movies">Now Showing</h2>
+
+    <div class="movie">
+        <h3>Inception</h3>
+        <p>Genre: Sci-Fi</p>
+        <button onclick="bookTicket('Inception')">Book Ticket</button>
+    </div>
+
+    <div class="movie">
+        <h3>Interstellar</h3>
+        <p>Genre: Sci-Fi / Drama</p>
+        <button onclick="bookTicket('Interstellar')">Book Ticket</button>
+    </div>
+
+    <div class="movie">
+        <h3>The Dark Knight</h3>
+        <p>Genre: Action</p>
+        <button onclick="bookTicket('The Dark Knight')">Book Ticket</button>
+    </div>
+
+    <p id="status"></p>
+
+    <div id="loginBox">
+        <h2>Login</h2>
+        Email: <input type="email" id="email"><br><br>
+        Password: <input type="password" id="password"><br><br>
+        <button onclick="login()">Submit</button>
+        <button onclick="closeLogin()">Close</button>
+    </div>
+
+    <p id="contact">Contact: cinereserve@example.com</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!--
+  HOW TO RUN:
+  No server needed. Double-click index.html (opens in browser).
+  Keep index.html, style.css, script.js in the same folder.
+-->
